@@ -540,10 +540,9 @@ header {
     text-transform: uppercase;
     color: #E3B873;
     transition: .2s;
-    border-bottom: 1px solid #E3B873;
-    padding-bottom: 6px;
-    margin-right: 37px;
-    text-decoration: none;
+    margin: 0 37px 0 0;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .reset_link_style {
@@ -555,8 +554,8 @@ header {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.3);
     text-decoration: none;
-    margin-right: 37px;
-    text-decoration: none;
+    margin: 0 37px 0 0;
+    cursor: pointer;
 }
 
 .round_btn {
@@ -668,6 +667,7 @@ header {
 
 .arrow {
     margin-bottom: -3px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1300px) {
